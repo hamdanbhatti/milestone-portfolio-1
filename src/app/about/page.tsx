@@ -8,16 +8,16 @@ const About = () => {
             <div className="flex flex-col md:flex-row items-center justify-between gap-12">
                <div className="w-full md:w-1/2 transform hover:scale-105 transition-transform duration-300">
                   <Image
-                     src="/images/about.png"
+                     src="/images/hero-img.jpg"
                      alt="about"
-                     className="w-full h-auto rounded-2xl shadow-lg"
+                     className="w-[8`0%] h-auto rounded-2xl shadow-lg"
                      width={500}
                      height={500}
                   />
                </div>
 
                <div className="w-full md:w-1/2">
-                  <h1 className="text-4xl md:text-4xl font-black mb-8 text-indigo-600">
+                  <h1 className="text-4xl md:text-4xl text-center md:text-left font-black mb-8 text-indigo-600">
                      About My Web Development Journey
                   </h1>
 
