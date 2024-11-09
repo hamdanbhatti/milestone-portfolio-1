@@ -14,7 +14,7 @@ const Footer = () => {
                <span className="ml-3 text-xl">Hamdan</span>
             </a>
             <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-               © 2020 Portfolio —
+               © 2024 Portfolio —
                <a
                   href="https://twitter.com/knyttneve"
                   className="text-gray-500 ml-1"

@@ -2,6 +2,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
+import Link from "next/link";
 const Hero = () => {
    return (
       <section>
@@ -34,16 +35,17 @@ const Hero = () => {
                      player and I enjoy working on challenging projects.
                   </p>
                   <div className="flex justify-center">
-                     <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                     <Link href={"/contact"}><button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
                         Hire Me
                      </button>
+                     </Link>
                   </div>
                </div>
                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-8/6">
                   <Image
-                     className="object-cover object-center rounded"
+                     className="object-cover object-center rounded-full"
                      alt="hero"
-                     src="/images/hero.png"
+                     src="/images/hero-img.jpg"
                      width={720}
                      height={600}
                   />
